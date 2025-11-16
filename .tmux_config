@@ -1,0 +1,11 @@
+set mouse on
+set mode-keys vi
+set escape-time 0
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
+# Initialize TMUX plugin manager (keep this line at the bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+
